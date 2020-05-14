@@ -1,0 +1,7 @@
+discovery_api= YOUR DISCOVERY API HERE
+discovery_url= YOUR DISCOVERY URL HERE
+
+#requisitos para pesquisa
+env_id= YOUR ENVIRONMENT ID HERE
+col_id= YOUR COLLECTION ID HERE
+conf_id= YOUR CONFIGURTARION ID HERE
