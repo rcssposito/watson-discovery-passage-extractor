@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        Teste
+    </title>
+
+</head>
+
+<body class="body-index">
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+
+            <form class="form-inline form-entrar" action="/pesquisar" method="post">
+                <div class="form-group">
+                    <input type="search" name="texto" id="texto" placeholder="Busca" class="form-control"
+                        autocomplete="off" required />
+                </div>
+            </form>
+        </div>
+
+
+        <div id="pesquisa">
+
+            <!-- Quando a variável  data não for indefinida, 
+                apresentar o conteúdo após renderizar o index 
+                pelo método extrair no controller discovery -->
+            <p>
+                <% if(typeof data !== 'undefined' ){ %>
+                <%=data%>
+                <% } %>
+
+            </p>
+        </div>
+    </nav>
+
+</body>
+
+</html>
